@@ -8,7 +8,7 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    gap: 2.5px;
+    gap: 1px;
 }
 
 /* Logo image - Bigger on Desktop */
@@ -156,6 +156,7 @@ footer {
   }
 
   
+
 
 
 
