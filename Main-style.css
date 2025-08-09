@@ -8,13 +8,13 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 2.5px;
 }
 
 /* Logo image - Bigger on Desktop */
 .logo img {
     height: auto; /* Increased size */
-    width: 200px;
+    width: 250px;
     object: none;
 }
 
@@ -156,6 +156,7 @@ footer {
   }
 
   
+
 
 
 
