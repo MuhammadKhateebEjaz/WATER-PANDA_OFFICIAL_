@@ -4,55 +4,36 @@ body {
     padding: 100;
 
 }
-/* Logo container */
+/* Logo container - keep logo and text close */
 .logo {
     display: flex;
-    align-items: center;
-    gap: 8px;
+    align-items: center; /* vertical center align text with logo */
+    gap: 5px; /* small gap between logo & text */
 }
 
-/* Logo image - Bigger */
+/* Logo image - big */
 .logo img {
-    height: 90px; /* Large logo */
+    height: 80px; /* large logo */
     width: auto;
     object-fit: contain;
 }
 
-/* Logo text - Smaller */
-.logo-text h1 {
-    font-size: 18px; /* smaller than before */
-    margin: 0;
+/* Logo text - middle aligned */
+.logo-text {
+    font-size: 20px;
     font-weight: bold;
     color: #000;
-    line-height: 1.2;
 }
 
-.logo-text p {
-    font-size: 10px; /* smaller subtext */
-    margin: 0;
-    color: #555;
-}
-
-/* Tablet View */
-@media (max-width: 1024px) and (min-width: 769px) {
-    .logo img {
-        height: 80px;
-    }
-}
-
-/* Mobile View */
+/* Mobile/iOS adjustments */
 @media (max-width: 768px) {
     .logo img {
         height: 70px;
     }
-    .logo-text h1 {
-        font-size: 16px;
-    }
-    .logo-text p {
-        font-size: 9px;
+    .logo-text {
+        font-size: 18px;
     }
 }
-
 
 
 .hero {
@@ -157,6 +138,7 @@ footer {
   }
 
   
+
 
 
 
