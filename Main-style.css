@@ -4,6 +4,12 @@ body {
     padding: 100;
 
 }
+.logo img {
+    height: 60px;       /* control size */
+    width: auto;        /* keep proportions */
+    object-fit: contain;
+}
+
 .hero {
      background: linear-gradient(45deg,  #3677f8, #3677f8);
   
@@ -106,3 +112,4 @@ footer {
   }
 
   
+
