@@ -13,8 +13,8 @@ body {
 
 /* Logo image - Bigger and Clear */
 .logo img {
-    height: 100px; /* bigger size */
-    width: 200px;
+    height: 80px; /* bigger size */
+    width: auto;
     object-fit: contain;
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
@@ -24,17 +24,9 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
-/* Logo image - Bigger and Clear */
-.logo img {
-    height: 80px; /* bigger size */
-    width: auto;
-    object-fit: contain;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: crisp-edges;
-}
 
 /* Logo text styling */
 .logo-text h1 {
@@ -175,6 +167,7 @@ footer {
   }
 
   
+
 
 
 
