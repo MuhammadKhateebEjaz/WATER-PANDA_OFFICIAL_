@@ -34,15 +34,6 @@ body {
     color: #555;
 }
 
-/* Mobile adjustments */
-@media (max-width: 768px) {
-    .logo img {
-        height: 50px;
-    }
-    .logo-text h1 {
-        font-size: 18px;
-    }
-}
 
 
 .hero {
@@ -147,5 +138,6 @@ footer {
   }
 
   
+
 
 
