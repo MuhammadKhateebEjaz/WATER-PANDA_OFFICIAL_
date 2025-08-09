@@ -8,12 +8,12 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    gap: 1px;
+    gap: 10px;
 }
 
 /* Logo image */
 .logo img {
-    height: 60px; /* perfect size for clarity */
+    height: auto; /* perfect size for clarity */
     width: auto; 
     object-fit: contain; /* keeps proportions */
     image-rendering: -webkit-optimize-contrast; /* makes image sharper */
@@ -138,6 +138,7 @@ footer {
   }
 
   
+
 
 
 
