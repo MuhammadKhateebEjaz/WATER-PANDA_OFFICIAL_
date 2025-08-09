@@ -13,8 +13,8 @@ body {
 
 /* Logo image - Bigger on Desktop */
 .logo img {
-    height: 200px; /* Increased size */
-    width: 600px;
+    height: auto; /* Increased size */
+    width: auto;
     object: none;
 }
 
@@ -156,6 +156,7 @@ footer {
   }
 
   
+
 
 
 
