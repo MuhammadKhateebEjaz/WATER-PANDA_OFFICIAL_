@@ -8,7 +8,7 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 /* Logo image - Bigger and Clear */
@@ -167,6 +167,7 @@ footer {
   }
 
   
+
 
 
 
