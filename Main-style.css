@@ -12,18 +12,13 @@ body {
 }
 
 
+ /* Logo image - Bigger on Desktop */
+
 .logo img {
-    height: 90px; /* Large logo */
+    height: auto; /* Increased size */
     width: auto;
     object-fit: contain;
 }
- /* Logo image - Bigger on Desktop */
-
-/* .logo img {
-    height: auto; /* Increased size */
-/*     width: auto;
-    object-fit: contain; */
-} */
 
 
  */
@@ -165,6 +160,7 @@ footer {
   }
 
   
+
 
 
 
