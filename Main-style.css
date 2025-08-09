@@ -11,29 +11,51 @@ body {
     gap: 10px;
 }
 
-/* Logo image */
+/* Logo image - Bigger and Clear */
 .logo img {
-    height: auto; /* perfect size for clarity */
-    width: auto; 
-    object-fit: contain; /* keeps proportions */
-    image-rendering: -webkit-optimize-contrast; /* makes image sharper */
+    height: 80px; /* bigger size */
+    width: auto;
+    object-fit: contain;
+    image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
 }
 
 /* Logo text styling */
 .logo-text h1 {
-    font-size: 20px;
+    font-size: 24px;
     margin: 0;
     font-weight: bold;
     color: #000;
 }
 
 .logo-text p {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0;
     color: #555;
 }
 
+/* Tablet View */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .logo img {
+        height: 70px; /* slightly smaller on tablet */
+    }
+    .logo-text h1 {
+        font-size: 22px;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .logo {
+        flex-direction: row; /* keep side by side */
+    }
+    .logo img {
+        height: 60px; /* smaller for mobile */
+    }
+    .logo-text h1 {
+        font-size: 20px;
+    }
+}
 
 
 .hero {
@@ -138,6 +160,7 @@ footer {
   }
 
   
+
 
 
 
