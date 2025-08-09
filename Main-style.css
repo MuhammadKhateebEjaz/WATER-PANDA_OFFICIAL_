@@ -4,11 +4,46 @@ body {
     padding: 100;
 
 }
-.logo img {
-    height: 60px;       /* control size */
-    width: auto;        /* keep proportions */
-    object-fit: contain;
+/* Logo container */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
+
+/* Logo image */
+.logo img {
+    height: 60px; /* perfect size for clarity */
+    width: auto; 
+    object-fit: contain; /* keeps proportions */
+    image-rendering: -webkit-optimize-contrast; /* makes image sharper */
+    image-rendering: crisp-edges;
+}
+
+/* Logo text styling */
+.logo-text h1 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    color: #000;
+}
+
+.logo-text p {
+    font-size: 12px;
+    margin: 0;
+    color: #555;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .logo img {
+        height: 50px;
+    }
+    .logo-text h1 {
+        font-size: 18px;
+    }
+}
+
 
 .hero {
      background: linear-gradient(45deg,  #3677f8, #3677f8);
@@ -112,4 +147,5 @@ footer {
   }
 
   
+
 
