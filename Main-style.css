@@ -15,7 +15,7 @@ body {
 .logo img {
     height: auto; /* Increased size */
     width: auto;
-    object: none;
+    object-fit: contain;
 }
 
 /* Logo text - Smaller */
@@ -156,6 +156,7 @@ footer {
   }
 
   
+
 
 
 
