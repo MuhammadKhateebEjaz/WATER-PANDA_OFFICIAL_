@@ -8,36 +8,27 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
 }
 
-/* Logo image - Bigger and Clear */
+/* Logo image - Bigger on Desktop */
 .logo img {
-    height: 80px; /* bigger size */
+    height: 110px; /* Increased size */
     width: auto;
     object-fit: contain;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: crisp-edges;
 }
 
-/* Logo container */
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-
-/* Logo text styling */
+/* Logo text - Smaller */
 .logo-text h1 {
-    font-size: 24px;
+    font-size: 18px;
     margin: 0;
     font-weight: bold;
     color: #000;
+    line-height: 1.2;
 }
 
 .logo-text p {
-    font-size: 14px;
+    font-size: 10px;
     margin: 0;
     color: #555;
 }
@@ -45,25 +36,23 @@ body {
 /* Tablet View */
 @media (max-width: 1024px) and (min-width: 769px) {
     .logo img {
-        height: 70px; /* slightly smaller on tablet */
-    }
-    .logo-text h1 {
-        font-size: 22px;
+        height: 95px; /* slightly smaller for tablet */
     }
 }
 
 /* Mobile View */
 @media (max-width: 768px) {
-    .logo {
-        flex-direction: row; /* keep side by side */
-    }
     .logo img {
-        height: 60px; /* smaller for mobile */
+        height: 80px; /* fits mobile */
     }
     .logo-text h1 {
-        font-size: 20px;
+        font-size: 16px;
+    }
+    .logo-text p {
+        font-size: 9px;
     }
 }
+
 
 .hero {
      background: linear-gradient(45deg,  #3677f8, #3677f8);
@@ -167,6 +156,7 @@ footer {
   }
 
   
+
 
 
 
