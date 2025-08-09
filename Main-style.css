@@ -5,11 +5,11 @@ body {
 
 }
 /* Logo container */
-.logo {
+/* .logo {
     display: flex;
     align-items: center;
     gap: 0.85px;
-}
+} */
 
 
 .logo img {
@@ -17,8 +17,7 @@ body {
     width: auto;
     object-fit: contain;
 }
-
-/* /* Logo image - Bigger on Desktop */
+ /* Logo image - Bigger on Desktop */
 .logo img {
     height: auto; /* Increased size */
     width: auto;
@@ -163,6 +162,7 @@ footer {
   }
 
   
+
 
 
 
