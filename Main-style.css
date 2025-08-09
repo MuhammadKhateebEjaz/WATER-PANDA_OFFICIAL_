@@ -4,34 +4,56 @@ body {
     padding: 100;
 
 }
-/* Logo container - keep logo and text close */
+/* Logo container */
 .logo {
     display: flex;
-    align-items: center; /* vertical center align text with logo */
-    gap: 5px; /* small gap between logo & text */
+    align-items: center;
+    gap: 10px;
 }
 
-/* Logo image - big */
+/* Logo image - Bigger and Clear */
 .logo img {
-    height: 80px; /* large logo */
+    height: 80px; /* bigger size */
     width: auto;
     object-fit: contain;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
 }
 
-/* Logo text - middle aligned */
-.logo-text {
-    font-size: 20px;
+/* Logo text styling */
+.logo-text h1 {
+    font-size: 24px;
+    margin: 0;
     font-weight: bold;
     color: #000;
 }
 
-/* Mobile/iOS adjustments */
-@media (max-width: 768px) {
+.logo-text p {
+    font-size: 14px;
+    margin: 0;
+    color: #555;
+}
+
+/* Tablet View */
+@media (max-width: 1024px) and (min-width: 769px) {
     .logo img {
-        height: 70px;
+        height: 70px; /* slightly smaller on tablet */
     }
-    .logo-text {
-        font-size: 18px;
+    .logo-text h1 {
+        font-size: 22px;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .logo {
+        flex-direction: row; /* keep side by side */
+    }
+    .logo img {
+        height: 60px; /* smaller for mobile */
+    }
+    .logo-text h1 {
+        font-size: 20px;
     }
 }
 
@@ -138,6 +160,7 @@ footer {
   }
 
   
+
 
 
 
