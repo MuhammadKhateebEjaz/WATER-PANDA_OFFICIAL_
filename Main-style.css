@@ -13,8 +13,8 @@ body {
 
 /* Logo image - Bigger and Clear */
 .logo img {
-    height: 80px; /* bigger size */
-    width: auto;
+    height: 100px; /* bigger size */
+    width: 200;
     object-fit: contain;
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
@@ -175,6 +175,7 @@ footer {
   }
 
   
+
 
 
 
