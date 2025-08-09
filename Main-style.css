@@ -5,11 +5,11 @@ body {
 
 }
 /* Logo container */
-/* .logo {
+ .logo {
     display: flex;
     align-items: center;
     gap: 0.85px;
-} */
+}
 
 
 .logo img {
@@ -18,11 +18,14 @@ body {
     object-fit: contain;
 }
  /* Logo image - Bigger on Desktop */
-.logo img {
+
+/* .logo img {
     height: auto; /* Increased size */
-    width: auto;
-    object-fit: contain;
-}
+/*     width: auto;
+    object-fit: contain; */
+} */
+
+
  */
 /* Logo text - Smaller */
 .logo-text h1 {
@@ -162,6 +165,7 @@ footer {
   }
 
   
+
 
 
 
